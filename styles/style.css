@@ -1,0 +1,79 @@
+body {
+	background-color: #008DCB;
+	height: 100%;
+	width: 98%;
+	min-width: 800px;
+	font-family: 'Palatino';
+}
+
+#container {
+	height: 700px;
+	width: 700px;
+	display: grid;
+	border: 15px solid black;
+	border-radius: 15px;
+}
+
+.unit {
+	background-color: #F3EBDD;
+	border: 0.5px solid #A8A8A8;
+}
+
+/*
+BUTTON DESIGN CREDIT GOES TO:
+https://codemyui.com/hand-drawn-border-buttons-css/
+*/
+
+.button {
+	background: transparent;
+	margin:0 1rem;
+    transition:all .5s ease;
+    color:#000;
+    font-size:2rem;
+    letter-spacing:1px;
+    outline:none;
+	padding:1rem 1rem;
+	font-size: 25px;
+	border:solid 7px #000;
+	box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    margin-top: 10px;
+}
+
+.button:hover {
+	box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+	border:solid 7px #000;
+}
+
+.buttonRainbow {
+	background: transparent;
+	margin:0 1rem;
+    transition:all .5s ease;
+    color:#000;
+    font-size:2rem;
+    letter-spacing:1px;
+    outline:none;
+	padding:1rem 1rem;
+	font-size: 25px;
+	border:solid 7px #000;
+	box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    margin-top: 10px;
+}
+
+.buttonRainbow:hover {
+	box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+	border:solid 7px #000;
+}
+
+.squareSubmit {
+	margin-top: 10px;
+	background: transparent;
+    transition:all .5s ease;
+    color:#000;
+    border:solid 2px #000;
+}
+
+.squareNumber {
+	width: 112px;
+}
